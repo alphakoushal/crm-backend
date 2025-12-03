@@ -6,8 +6,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/test', function () {
+<<<<<<< HEAD
     return view('welcome');
 });
 Route::get('/test', function () {
     return response()->json(['message' => 'API is working']); //tets new
+=======
+    return response()->json(['message' => 'API is working']); //tets new ok
+>>>>>>> main
 });
